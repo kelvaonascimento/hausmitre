@@ -1,26 +1,65 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+@font-face {
+  font-family: 'Regranek';
+  src: url('/fonts/Regranek.otf') format('opentype'),
+       url('/fonts/Regranek.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+  --color-copper: #814D37;
+  --color-copper-light: #B8896B;
+  --color-copper-dark: #5E3425;
+  --color-gold: #C9A96E;
+  --color-green: #344840;
+  --color-green-light: #4A6B52;
+  --color-green-dark: #2A3B33;
+  --color-taupe: #A89A8C;
+  --color-dark: #1C1210;
+  --color-dark-mid: #2A1D15;
+  --color-beige: #F5EFE6;
+  --color-beige-light: #FAF7F3;
+  --color-text-mid: #4A3A2A;
+  --color-text-light: #8A7A6A;
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+  --font-cormorant: var(--font-cormorant-garamond), serif;
+  --font-montserrat: var(--font-montserrat-family), sans-serif;
+  --font-lato: var(--font-lato-family), sans-serif;
+  --font-regranek: 'Regranek', serif;
+
+  --animate-ken-burns: kenBurns 12s ease-out forwards;
+  --animate-bounce-slow: bounce 2s infinite;
+
+  @keyframes kenBurns {
+    0% { transform: scale(1.08); }
+    100% { transform: scale(1.0); }
   }
 }
 
+:root {
+  --copper: #814D37;
+  --copper-light: #B8896B;
+  --gold: #C9A96E;
+  --dark: #1C1210;
+  --beige: #F5EFE6;
+  --beige-light: #FAF7F3;
+}
+
+@media (pointer: fine) {
+  * {
+    cursor: none;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
 body {
-  background: var(--background);
-  color: var(--foreground);
+  background: var(--beige-light);
+  color: var(--dark);
   font-family: Arial, Helvetica, sans-serif;
 }

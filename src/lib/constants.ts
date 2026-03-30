@@ -1,0 +1,203 @@
+export const COPY = {
+  hero: {
+    label: 'HAUS MITRE EDITION — CAMPO BELO',
+    title: 'Nem tudo se revela\nde imediato.',
+    subtitle: 'Campo Belo, São Paulo',
+    cta: 'CONHEÇA O EMPREENDIMENTO',
+  },
+  bairro: {
+    label: 'CAMPO BELO — SÃO PAULO',
+    title: 'Um refúgio urbano\nextraordinário',
+    text: 'Conveniência, convivência e experiências. A cada esquina, um surpreendente Campo Belo se revela. Nas suas ruas arborizadas, nos diferentes aromas da rica gastronomia que se espalha pelo bairro, no movimento das pessoas. Uma localização nobre em sua essência, que abriga com muito charme e tranquilidade.',
+  },
+  statement: {
+    label: 'HAUS MITRE EDITION',
+    titleLine1: 'CAMPO',
+    titleLine2: 'belo',
+    text: 'Plantas amplas e bem resolvidas, com linhas que prolongam o horizonte, onde cada ambiente valoriza a continuidade visual e a sensação de espaço. Vistas que convidam o olhar a percorrer distâncias. Ambientes que dissolvem fronteiras entre interior e exterior. Um endereço onde arquitetura, luz e paisagem se encontram para transformar o cotidiano em algo mais do que raro.',
+    stats: [
+      { value: '222 m²', label: 'Mansões Suspensas', sub: '3 e 4 suítes' },
+      { value: '438 m²', label: 'Cobertura Duplex', sub: '5 suítes' },
+    ],
+  },
+  fachada: {
+    label: 'DESIGN E ARQUITETURA',
+    tagline: 'Autoria que transforma',
+    title: 'como extensão do bairro\ne da essência de bem viver',
+    subtitle: 'amplitude em linguagem',
+    text: 'Assinado por profissionais que tratam o espaço como construção de narrativa, o projeto nasce do encontro entre atemporalidade, amplitude e sensibilidade estética. Arquitetura, interiores e paisagismo dialogam com precisão, onde cada detalhe, do traço inicial à escolha dos materiais, carrega intenção e domínio. Mais do que desenhar formas, aqui se constrói uma leitura de espaço que se revela aos poucos, com consistência, profundidade e permanência.',
+    autores: [
+      { role: 'Arquitetura', name: 'Jonas Birger' },
+      { role: 'Decoração', name: 'Claudia Albertini' },
+      { role: 'Paisagismo', name: 'Benedito Abbud' },
+    ],
+  },
+  lobby: {
+    label: 'LOBBY',
+    tagline: 'A cada detalhe, Proporções Extraordinárias',
+    title: 'Amplitude, Luz\ne Materialidade',
+    subtitle: 'conduzem o olhar sem pressa',
+    text: 'Um projeto que transcende o cotidiano e apresenta o extraordinário de forma pessoal. Pedras naturais brutas em espelho d\'água. Madeira nobre no teto. Dezenas de pendentes de luz. O barulho da cidade some completamente aqui dentro.',
+  },
+  living: {
+    label: 'APARTAMENTOS',
+    tagline: 'A cada horizonte, Proporções Extraordinárias',
+    titleLines: ['A cada horizonte,', 'Proporções', 'Extraordinárias'],
+    subtitle: 'Plantas de 222 m² com 3 ou 4 suítes. Varandas que se fundem com o interior. São Paulo inteira como extensão da sala.',
+    tipologias: [
+      {
+        nome: 'Mansão Suspensa',
+        area: '222 m²',
+        suites: '3 ou 4 Suítes',
+        cta: 'CONHECER',
+      },
+      {
+        nome: 'Cobertura Duplex',
+        area: '438 m²',
+        suites: '5 Suítes',
+        cta: 'CONHECER',
+      },
+    ],
+  },
+  lazer: {
+    label: 'LAZER E CONVÍVIO',
+    tagline: 'A cada sensação, Proporções Extraordinárias',
+    title: 'Sensações únicas para\nexperiências memoráveis',
+    text: 'Onde o lazer encontra sua forma mais precisa. Água, arquitetura e paisagem se articulam em silêncio. Lazer que funciona como extensão do cotidiano e valoriza privacidade e bem-estar.',
+    slides: [
+      { image: '/images/IMAGENS/DES_05_Piscina_Descoberta_P2.jpg', nome: 'Piscina Descoberta', sub: 'Privacidade e bem-estar' },
+      { image: '/images/IMAGENS/DES_15_Piscina_Coberta_P2.jpg', nome: 'Piscina Coberta', sub: 'Proporções que envolvem os sentidos' },
+      { image: '/images/IMAGENS/DES_23_Piscina_Coberta_B_P2.jpg', nome: 'Piscina com Raia', sub: 'Integração entre o interno e o externo' },
+      { image: '/images/IMAGENS/DES_07_Quadra_Tenis_P2.jpg', nome: 'Quadra de Tênis', sub: 'Jogadas únicas com amplitude e movimento' },
+      { image: '/images/IMAGENS/DES_10_Academia_P2.jpg', nome: 'Fitness Center', sub: 'Desempenho e espaço no mesmo compasso' },
+    ],
+  },
+  wellness: {
+    label: 'WELLNESS & BEM-ESTAR',
+    tagline: 'A cada escolha, Proporções Extraordinárias',
+    title: 'Bem-estar e harmonia\nem essência',
+    text: 'Ambientes pensados para valorizar o autocuidado, o conforto e a tranquilidade.',
+    cards: [
+      { image: '/images/IMAGENS/DES_17_Saunas_P2.jpg', nome: 'Saunas', sub: 'Equilíbrio e Wellness Design' },
+      { image: '/images/IMAGENS/DES_16_Massagem_P2.jpg', nome: 'Massage Room', sub: 'Bem-estar e harmonia em essência' },
+      { image: '/images/IMAGENS/DES_19_Beauty_Space_P2.jpg', nome: 'Beauty Space', sub: 'Autocuidado com endereço' },
+      { image: '/images/IMAGENS/DES_04_Praca_Descoberta_P2.jpg', nome: 'Praça Descoberta', sub: 'Descanso e convívio' },
+    ],
+  },
+  familia: {
+    label: 'PARA A FAMÍLIA TODA',
+    title: 'Diversão em sua\nforma mais plena',
+    text: 'É nesse espaço que a imaginação cresce e ganha força, sem nunca se limitar. Formas e cores incentivando descobertas. Um espaço que acompanha energia e movimento sem abrir mão do conforto.',
+  },
+  localizacao: {
+    label: 'LOCALIZAÇÃO',
+    title: 'Intimista\ne Tranquila',
+    subtitle: 'Um cenário capaz de abrigar a urbanidade de São Paulo e a atmosfera intimista e tranquila',
+    endereco: 'Rua Morais de Barros, esquina Rua Barão de Jaceguai — Campo Belo, São Paulo',
+    text: 'A partir de Campo Belo, tudo se conecta com fluidez e revela uma localização que traduz, com naturalidade, o dinamismo da vida urbana. Com acesso facilitado a Av. Vereador José Diniz, a poucos minutos do Aeroporto de Congonhas e próximo ao Shopping Ibirapuera, a rotina ganha agilidade e reduz distâncias.',
+    grupos: [
+      {
+        categoria: 'Mobilidade',
+        items: [
+          { nome: 'Estação Eucaliptos do Metrô', tempo: '3 min' },
+          { nome: 'Aeroporto de Congonhas', tempo: '6 min' },
+          { nome: 'Av. dos Bandeirantes', tempo: '3 min' },
+          { nome: 'Av. Vereador José Diniz', tempo: '4 min' },
+          { nome: 'Av. Santo Amaro', tempo: '5 min' },
+          { nome: 'Corredor Norte-sul', tempo: '4 min' },
+        ],
+      },
+      {
+        categoria: 'Gastronomia',
+        items: [
+          { nome: 'NB Steak Campo Belo', tempo: '2 min' },
+          { nome: 'Bacio di Latte', tempo: '3 min' },
+          { nome: 'Vero Latte', tempo: '3 min' },
+          { nome: 'La Paella Restaurante', tempo: '3 min' },
+          { nome: 'Sensi Restaurante', tempo: '7 min' },
+          { nome: 'O Jardim, Café e Brunch', tempo: '4 min' },
+        ],
+      },
+      {
+        categoria: 'Bem-estar',
+        items: [
+          { nome: 'Campo Belo Medical Center', tempo: '4 min' },
+          { nome: 'Hospital Moriah', tempo: '7 min' },
+          { nome: 'Hospital Rubem Berta', tempo: '18 min' },
+          { nome: 'Hospital São Luiz', tempo: '16 min' },
+        ],
+      },
+      {
+        categoria: 'Serviços e Lazer',
+        items: [
+          { nome: 'Academia Bio Ritmo', tempo: '3 min' },
+          { nome: 'Ibirapuera Shopping', tempo: '6 min' },
+          { nome: 'The Coffee', tempo: '2 min' },
+          { nome: 'Parque Ibirapuera', tempo: '20 min' },
+        ],
+      },
+      {
+        categoria: 'Ensino',
+        items: [
+          { nome: 'Aubrick Escola Bilíngue', tempo: '7 min' },
+          { nome: 'Colégio Stockler', tempo: '8 min' },
+          { nome: 'Colégio Vértice', tempo: '9 min' },
+          { nome: 'Insper', tempo: '16 min' },
+        ],
+      },
+      {
+        categoria: 'Facilidades',
+        items: [
+          { nome: 'Droga Raia', tempo: '1 min' },
+          { nome: 'A Tigueira Padaria', tempo: '2 min' },
+          { nome: 'Pão de Açúcar', tempo: '3 min' },
+          { nome: 'St Marché', tempo: '3 min' },
+        ],
+      },
+    ],
+  },
+  mitre: {
+    label: 'A INCORPORADORA',
+    title: '56 anos\nde expertise',
+    sub: 'Um projeto que nasce com mais',
+    text: 'Com mais de 56 anos de experiência em incorporação e inúmeros empreendimentos de sucesso, a Mitre orgulha-se de utilizar as técnicas mais modernas de gestão, concepção, execução e relacionamento, tendo como pilares a excelência, a inovação e a transparência. Quem tem um Mitre é apaixonado por ele.',
+    credenciais: [
+      { sigla: 'MTRE3', desc: 'Listada no Novo Mercado da B3' },
+      { sigla: 'ISE B3', desc: 'Índice de Sustentabilidade Empresarial' },
+      { sigla: 'ICO2 B3', desc: 'Comprometimento com baixo carbono' },
+      { sigla: 'ISO 9001', desc: 'Certificação em qualidade construtiva' },
+    ],
+    depoimentos: [
+      { texto: 'Nunca recebi o mesmo suporte pós-venda que tive com a Mitre. O produto foi bem executado e atendeu todas as expectativas.', autor: 'Roberto Alves Garcia Junior', empreendimento: 'Haus Mitre Vila Clementino' },
+      { texto: 'Comprar com a Mitre foi uma grata surpresa. Só tive experiências boas em todas as etapas. Tenho duas unidades e já considero uma terceira.', autor: 'Cassio Lopes Ribeiro', empreendimento: 'Haus Mitre Edition NY' },
+      { texto: 'A Mitre superou minhas expectativas! O diferencial me fez comprar uma segunda unidade. Também já indiquei a Mitre para amigos e colegas.', autor: 'Alexandre Sunao Takahashi', empreendimento: 'Haus Mitre Butantã' },
+    ],
+  },
+  formulario: {
+    label: 'QUERO SABER MAIS',
+    title: 'Proporções Extraordinárias\npedem uma conversa.',
+    subtitle: 'Preencha o formulário e nossa equipe entrará em contato.',
+    cta: 'QUERO RECEBER INFORMAÇÕES',
+  },
+}
+
+export const IMAGES = {
+  hero: '/images/Fotos Folheto/1.jpg',
+  bairro: '/images/Fotos Folheto/12.jpg',
+  fachada1: '/images/IMAGENS/DES_01_Fachada_Frontal_P2.jpg',
+  fachada2: '/images/IMAGENS/DES_02_Fachada_Lateral_P2.jpg',
+  fachada3: '/images/IMAGENS/DES_03_Embasamento_P2.jpg',
+  lobby1: '/images/IMAGENS/DES_08_Lobby_01_P2.jpg',
+  lobby2: '/images/IMAGENS/DES_09_Lobby_02_P2.jpg',
+  living: '/images/Fotos Folheto/1.jpg',
+  livingBedroom: '/images/Fotos Folheto/62.jpg',
+  playground: '/images/IMAGENS/DES_06_Playground_P2.jpg',
+  localizacao: '/images/Fotos Folheto/12.jpg',
+  localizacaoMapa: '/images/Fotos Folheto/15.jpg',
+  formulario: '/images/IMAGENS/DES_23_Piscina_Coberta_B_P2.jpg',
+  logo: '/images/Logo/Logo - Haus Mitre Campo Belo.svg',
+  logoWhite: '/images/Logo/Logo - Haus Mitre Campo Belo (branco).svg',
+  logoPng: '/images/Logo/Logo---Haus-Mitre-Campo-Belo.png',
+  logoWhitePng: '/images/Logo/Logo---Haus-Mitre-Campo-Belo-(branco).png',
+  copperTexture: '/images/Fotos Folheto/38.jpg',
+}
