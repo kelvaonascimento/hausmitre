@@ -15,6 +15,7 @@ export default function Lobby() {
           src={IMAGES.lobby2}
           alt="Lobby Haus Mitre"
           fill
+          quality={90}
           className="object-cover"
           sizes="100vw"
         />
@@ -46,6 +47,7 @@ export default function Lobby() {
             src={IMAGES.lobby1}
             alt="Lobby detalhe"
             fill
+            quality={90}
             className="object-cover"
             sizes="(max-width: 1024px) 100vw, 50vw"
           />

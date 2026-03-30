@@ -20,6 +20,7 @@ export default function Familia() {
             src={IMAGES.playground}
             alt="Playground"
             fill
+            quality={90}
             className="object-cover"
             sizes="(max-width: 1024px) 100vw, 50vw"
           />

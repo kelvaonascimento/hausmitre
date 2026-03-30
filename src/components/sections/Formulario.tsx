@@ -38,6 +38,7 @@ export default function Formulario() {
             src={IMAGES.formulario}
             alt="Haus Mitre Edition Campo Belo"
             fill
+            quality={90}
             className="object-cover"
             sizes="50vw"
           />

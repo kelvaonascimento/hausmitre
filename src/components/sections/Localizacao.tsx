@@ -15,6 +15,7 @@ export default function Localizacao() {
           src={IMAGES.localizacao}
           alt="Localização Campo Belo"
           fill
+          quality={90}
           className="object-cover"
           sizes="100vw"
         />
@@ -68,6 +69,7 @@ export default function Localizacao() {
               alt="Mapa ilustrado da região — Campo Belo"
               width={1200}
               height={700}
+              quality={90}
               className="w-full h-auto"
               sizes="100vw"
             />

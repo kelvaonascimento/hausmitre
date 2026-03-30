@@ -40,6 +40,7 @@ export default function Bairro() {
             src={IMAGES.bairro}
             alt="Campo Belo, São Paulo"
             fill
+            quality={90}
             className="object-cover"
             sizes="(max-width: 1024px) 100vw, 50vw"
           />

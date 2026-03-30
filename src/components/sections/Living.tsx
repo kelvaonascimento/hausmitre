@@ -15,6 +15,7 @@ export default function Living() {
           src={IMAGES.living}
           alt="Living Haus Mitre"
           fill
+          quality={90}
           className="object-cover"
           sizes="100vw"
         />

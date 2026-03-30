@@ -43,6 +43,7 @@ export default function Fachada() {
               src={IMAGES.fachada1}
               alt="Fachada Frontal"
               fill
+              quality={90}
               className="object-cover transition-transform duration-700 group-hover:scale-105"
               sizes="(max-width: 1024px) 100vw, 58vw"
             />
@@ -63,6 +64,7 @@ export default function Fachada() {
               src={IMAGES.fachada2}
               alt="Fachada Lateral"
               fill
+              quality={90}
               className="object-cover transition-transform duration-700 group-hover:scale-105"
               sizes="(max-width: 1024px) 100vw, 42vw"
             />
@@ -79,6 +81,7 @@ export default function Fachada() {
             src={IMAGES.fachada3}
             alt="Embasamento"
             fill
+            quality={90}
             className="object-cover transition-transform duration-700 group-hover:scale-105"
             sizes="100vw"
           />
