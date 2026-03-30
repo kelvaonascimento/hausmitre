@@ -33,7 +33,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Haus Mitre Edition Campo Belo',
     description: 'Proporções Extraordinárias. Campo Belo, São Paulo.',
-    images: ['/images/1.jpg'],
+    images: ['/images/Fotos Folheto/1.jpg'],
   },
 }
 

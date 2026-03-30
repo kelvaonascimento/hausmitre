@@ -9,6 +9,7 @@ export default function Cursor() {
   const springY = useSpring(cursorY, { stiffness: 400, damping: 28 })
 
   useEffect(() => {
+    if (!window.matchMedia('(pointer: fine)').matches) return
     const move = (e: MouseEvent) => {
       cursorX.set(e.clientX - 10)
       cursorY.set(e.clientY - 10)
